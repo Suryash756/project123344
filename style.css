@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(to right, rgb(255, 95, 109), rgb(255, 195, 113));
+    text-align: center;
+    color:black;
+}
+.heading
+{
+  font-size:40px;
+  width:80%;
+  border:solid;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-decoration: underline;
+}
+section{
+    border:solid;
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-size: 15px;
+    background: linear-gradient(to right, rgb(255, 75, 31), rgb(255, 144, 104));
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#para{
+  font-size:15px;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+#camera,#result
+{
+    border:3px ridge black;
+    width:350px;
+    height:350px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+label{
+    font-size:20px;
+    font-weight:bold;
+    text-decoration:underline;
+}
+button{
+    border:solid !important;
+    border-color:black !important;
+    color:black !important;
+    font-weight:bold!important;
+    transition: transform.2s !important;
+}
+button:hover{
+    transform: scale(0.9) !important;
+}
+span{
+    color:black;
+    font-weight:bold;
+}
+p{
+    font-weight:bold;
+}

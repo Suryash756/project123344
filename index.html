@@ -1,0 +1,59 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="https://cdn.dribbble.com/users/5976/screenshots/5499885/media/5f0869c1acbace346cf4d5983522e996.png?compress=1&resize=400x300">
+  </head>
+
+  <body>
+  <div class="container">
+    
+    <center>
+          <h3 class="btn btn-default heading">IMAGE RECOGNIZER</h1>
+      <br><br>
+     <br>
+      <p id="para" style="font-size: 22px;">Model is trained to identify the following objects: </p>
+            <br>
+            <section>
+            <b class="name_of_objects">
+              FATHER🧔‍♂️
+              <hr>
+              MOM👩‍🦰
+              <hr>
+              MYSELF👦
+              
+            </b>
+            </section>
+            <br>
+            <br>
+      <label>Webcam View - </label>
+            <div id="camera"></div>
+            <br>
+            <button onclick= "take_snapshot()" class="btn btn-info">CAPTURE IMAGE 🎥</button>
+      <br><br>
+          <label>YOUR RESULT :-</label>
+          <div id="result"></div>
+ 
+      <br><br>
+            <button onclick="check()" class="btn btn-success">IDENTENIFY IMAGE 🕵️‍♀️</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Object : <span id="result_object_name"></span>  </p>
+      <p style="font-size: 22px;">Accuracy : <span id="result_object_accuracy"></span>   </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
